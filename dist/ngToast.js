@@ -142,7 +142,7 @@
             '<ul class="ng-toast__list">' +
               '<toast-message ng-repeat="message in messages" ' +
                 'message="message" count="message.count">' +
-                '<span ng-bind-html="message.content"></span>' +
+                '<span ng-bind-html="message.content | translate"></span>' +
               '</toast-message>' +
             '</ul>' +
           '</div>');
